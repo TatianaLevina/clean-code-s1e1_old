@@ -18,8 +18,11 @@
 }
 
 @media (max-width:768px) {
-  .info { text-align: center;
+
+  .info {
+    text-align: center;
   }
+
 }
 .main-part {
   display: block;
@@ -100,7 +103,7 @@
 
   display: flex;
   justify-content: space-between;
-    align-items: center;
+  align-items: center;
 }
 .todo-list__item > * {
   vertical-align: middle;
@@ -116,7 +119,7 @@
   width: 226px;
 }
 .todo-list__item > .input_text {
-    width: 226px
+  width: 226px
 }
 .button_delete .img-remove {
   height: 2em;
